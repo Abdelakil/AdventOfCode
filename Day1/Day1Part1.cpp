@@ -1,4 +1,4 @@
-#include "Day1.h"
+#include "Day1Part1.h"
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -57,7 +57,7 @@ void reverseList(list<string> myList) {
 	extractLastDigit(reversedList);
 }
 
-void day1()
+void day1part1()
 {
 	list<string> myList;
 	string line;

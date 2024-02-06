@@ -2,14 +2,14 @@
 //
 #include <filesystem>
 #include "Advent of code.h"
-#include "Day1/Day1.h"
+#include "Day1/Day1Part1.h"
 #include "Day2/Day2.h"
 
 using namespace std;
 
 int main()
 {
-	day1();
+	day1part1();
 	//day2();
 	return 0;
 }

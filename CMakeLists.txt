@@ -3,7 +3,7 @@
 #
 
 # Add source to this project's executable.
-add_executable (CMakeTarget "Advent of code.cpp" "Advent of code.h" "Day1/Day1.h" "Day1/Day1.cpp" "Day2/Day2.h" "Day2/Day2.cpp")
+add_executable (CMakeTarget "Advent of code.cpp" "Advent of code.h" "Day1/Day1Part1.h" "Day1/Day1Part1.cpp" "Day2/Day2.h" "Day2/Day2.cpp")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET CMakeTarget PROPERTY CXX_STANDARD 20)
